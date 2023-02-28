@@ -8,4 +8,3 @@ STR: Steps to restore,
 ER: Expected result,
 AR: Actual Result,
 Attachment: link
-
