@@ -12,14 +12,22 @@
 - Charles - <code> <b>git branch Charles</b> </code>
 - Mobile testing - <code> <b>git branch MobileTesting</b> </code>
 
-2. Запушить все ветки на внешний репозиторий - <code> <b>git add .</b> </code>  
+2. Запушить все ветки на внешний репозиторий 
+
+<code> <b>git add .</b> </code>  
+
 <code> <b>git commit -m "new seven branch"</b> </code> 
+
 <code> <b>git checkout main</b> </code>
+
 <code> <b>git push -u origin Postman SQL Jmeter CheckLists Charles MobileTesting BagReports</b> </code>
 
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта - <code> <b>git checkout BagReports</b> </code>
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта 
+
+<code> <b>git checkout BagReports</b> </code>
 
 <code> <b>touch bug_report.txt</b> </code>
+
 <code> <b>vim skills.txt</b> </code>
 
 <b>Нажать</b> <code> <b>i</b> </code>
@@ -37,20 +45,32 @@ Attachment: link
 ```
 <b>Нажать</b> <code> <b>Esc :wq Enter</b> </code>
 
-4. Запушить структуру багрепорта на внешний репозиторий - <code> <b>git add .</b> </code>
+4. Запушить структуру багрепорта на внешний репозиторий 
+
+<code> <b>git add .</b> </code>
+
 <code> <b>git commit -m "bug report"</b> </code>
 
 <code> <b>git push</b> </code>
 
-5. Вмержить ветку Bag Reports в Main - <code> <b>git checkout main</b> </code>
+5. Вмержить ветку Bag Reports в Main 
+
+<code> <b>git checkout main</b> </code>
+
 <code> <b>git merge Bag_reports</b> </code>
 
-6. Запушить main на внешний репозиторий - <code> <b>git add .</b> </code>
+6. Запушить main на внешний репозиторий 
+
+<code> <b>git add .</b> </code>
 
 <code> <b>git commit -m "merge branch Bag_reports in main"</b> </code>
+
 <code> <b>git push</b> </code>
 
-7. В ветке CheckLists набросать структуру чек листа - <code> <b>git checkout CheckLists</b> </code>
+7. В ветке CheckLists набросать структуру чек листа 
+
+<code> <b>git checkout CheckLists</b> </code>
+
 <code> <b>touch checkl.txt</b> </code>
 
 <code> <b>vim checkl.txt</b> </code>
@@ -66,10 +86,24 @@ Attachment: link
  ```
 <b>Нажать</b> <code> <b>Esc :wq Enter</b> </code>
 
-8. Запушить структуру на внешний репозиторий - <code> <b>git add .</b> </code>
+8. Запушить структуру на внешний репозиторий 
+
+<code> <b>git add .</b> </code>
+
 <code> <b>git commit -m "structure"</b> </code>
+
 <code> <b>git push</b> </code>
 
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main - <b>После пуша check_list.txt на внешний репозиторий ветки CheckLists нажать на зеленую кнопку</b> <code> <b>Compare&pull requset</b> </code>
-10. Синхронизировать Внешнюю и Локальную ветки Main - <code> <b>git checkout main</b> </code> <code> <b>git fetch</b> </code>
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main 
+
+<b>После пуша check_list.txt на внешний репозиторий ветки CheckLists нажать на зеленую кнопку</b> 
+
+<code> <b>Compare&pull requset</b> </code>
+
+10. Синхронизировать Внешнюю и Локальную ветки Main 
+
+<code> <b>git checkout main</b> </code> 
+
+<code> <b>git fetch</b> </code>
+
 <code> <b>git pull</b> </code>
